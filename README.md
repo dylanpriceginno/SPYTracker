@@ -33,6 +33,9 @@ Acf(SPY$SPY.Close, main='ACF for Differenced Series')
 
 Pacf(SPY$SPY.Close, main= 'PACF for Difference Series')
 
+![Rplot03](https://github.com/dylanpriceginno/SPYTracker/assets/85695465/5a77bf95-e214-4509-a3f1-8cdcfd6563ce)
+
+
 # Test for stationarity (Augmented Dickey-Fuller Test)
 
 adf_result <- adf.test(SPY$SPY.Close)
@@ -128,5 +131,5 @@ plot(fcast7)
 
 plot(fcast8)
 
-# Expect a slight constant increase over the next year
+# Results: Expect a slight constant increase over the next year
 ![Rplot02](https://github.com/dylanpriceginno/SPYTracker/assets/85695465/3016375f-0974-4f5f-9b49-56d19bcb4c57)
